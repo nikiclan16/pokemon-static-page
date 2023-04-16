@@ -70,6 +70,7 @@ const PokemonPage:NextPage<Props> = ({pokemon}) => {
                   color='gradient'
                   bordered={!isInFavorites}
                   onPress={onToggleFavorite}
+                  style={{marginLeft: '20px'}}
                 >
                   {isInFavorites ? 'En Favoritos' : 'Guardar en Favoritos'}
                 </Button>
